@@ -63,7 +63,7 @@ h3 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.skills-list {
+ul.skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -77,6 +77,10 @@ h3 {
   color: #fff;
   padding: 8px 12px;
   border-radius: 5px;
+}
+
+.skills-list li::marker {
+  content: none;
 }
 
 .project-grid {
