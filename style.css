@@ -67,6 +67,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  list-style: none;  /* ✅ removes the dots */
+  padding: 0;        /* ✅ removes left padding */
+  margin: 0;         /* optional: resets margin */
 }
 
 .skills-list li {
